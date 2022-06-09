@@ -11,7 +11,7 @@ class YoutubeMainPage:
         self.search_button = (By.ID, 'search-icon-legacy')
 
     def search_video(self, search):
-        box = WebDriverWait(self.driver, 5).until(EC.presence_of_element_located(self.search_box))
+        box = WebDriverWait(self.driver, 10).until(EC.presence_of_element_located(self.search_box))
         box.send_keys(search)
         self.driver.find_element(*self.search_button).click()
 

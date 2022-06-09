@@ -11,7 +11,7 @@ class GoogleMainPage:
         self.google_search_box = (By.NAME, 'q')
 
     def search_google(self, search):
-        box = WebDriverWait(self.driver, 5).until(EC.presence_of_element_located(self.google_search_box))
+        box = WebDriverWait(self.driver, 10).until(EC.presence_of_element_located(self.google_search_box))
         box.send_keys(search)
         box.send_keys(Keys.ENTER)
 
