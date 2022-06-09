@@ -23,7 +23,7 @@ from page_objects.facebook_main import FacebookMainPage
 from page_objects.facebook_sing_up_pop_up import FacebookSingUp
 
 
-@pytest.mark.usefixtures("oneTimeSetUp", "setUp")
+@pytest.mark.usefixtures("oneTimeSetUp")
 class TestingDEPT(unittest.TestCase):
 
     @pytest.fixture(autouse=True)
@@ -34,7 +34,7 @@ class TestingDEPT(unittest.TestCase):
         # # self.driver = webdriver.Chrome(options=chrome_option)
         # #self.driver = webdriver.Firefox()
         # self.driver = webdriver.Edge(executable_path=r'C:\Users\naman.MSI\Documents\workspace_python\DEPT\drivers\msedgedriver.exe')
-        self.driver.implicitly_wait(10)
+        #self.driver.implicitly_wait(10)
         self.youtubemainpage = YoutubeMainPage(self.driver)
         self.googlemainpage = GoogleMainPage(self.driver)
         self.facebookmainpage = FacebookMainPage(self.driver)
@@ -67,14 +67,14 @@ class TestingDEPT(unittest.TestCase):
 
 
         time.sleep(5)
-        #https://www.youtube.com/watch?v=OX-us7PEfkc
+
 
     # def tearDown(self):
     #     self.driver.close()
     #     self.driver.quit()
 
 
-# if __name__ == '__main__':
-#     unittest.main(testRunner=HtmlTestRunner.HTMLTestRunner(output='reporte.html'))
+if __name__ == '__main__':
+    unittest.main(testRunner=HtmlTestRunner.HTMLTestRunner(output='reporte.html'))
 
 

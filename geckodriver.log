@@ -185,3 +185,50 @@ console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message f
 
 ###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
 
+1654815558250	geckodriver	INFO	Listening on 127.0.0.1:64745
+1654815561335	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\naman.MSI\\AppData\\Local\\Temp\\rust_mozprofileEr9jJ7"
+1654815562064	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\naman.MSI\\AppData\\Local\\Temp\\rust_mozprofileEr9jJ7\\search.json.mozlz4", (void 0)))
+1654815564833	Marionette	INFO	Listening on port 64753
+1654815565106	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iqES4/y3/l/en_US/waujFC3AG07.js?_nc_x=Ij3Wp8lg5Kz, line 20: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+[Parent 16984, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1654815574446	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+[2022-06-09T22:59:35Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-06-09T22:59:35Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-06-09T22:59:35Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-06-09T22:59:35Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+1654815588218	Marionette	INFO	Stopped listening on port 64753
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1654815972697	geckodriver	INFO	Listening on 127.0.0.1:65134
+1654815975760	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\naman.MSI\\AppData\\Local\\Temp\\rust_mozprofileaWibR4"
+1654815976879	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\naman.MSI\\AppData\\Local\\Temp\\rust_mozprofileaWibR4\\search.json.mozlz4", (void 0)))
+1654815979593	Marionette	INFO	Listening on port 65142
+1654815979964	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iqES4/y3/l/en_US/waujFC3AG07.js?_nc_x=Ij3Wp8lg5Kz, line 20: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+1654815988991	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+[2022-06-09T23:06:29Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-06-09T23:06:30Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-06-09T23:06:30Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-06-09T23:06:31Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+1654816002469	Marionette	INFO	Stopped listening on port 65142
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
