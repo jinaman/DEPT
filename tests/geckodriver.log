@@ -1,0 +1,41 @@
+1654720546869	geckodriver	INFO	Listening on 127.0.0.1:57549
+1654720549949	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\naman.MSI\\AppData\\Local\\Temp\\rust_mozprofile3xhaTC"
+1654720550681	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\naman.MSI\\AppData\\Local\\Temp\\rust_mozprofile3xhaTC\\search.json.mozlz4", (void 0)))
+1654720553828	Marionette	INFO	Listening on port 57565
+1654720554155	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iqES4/y3/l/en_US/waujFC3AG07.js?_nc_x=Ij3Wp8lg5Kz, line 20: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1654720557742	Marionette	INFO	Stopped listening on port 57565
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1654720560080	geckodriver	INFO	Listening on 127.0.0.1:57617
+1654720563149	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\naman.MSI\\AppData\\Local\\Temp\\rust_mozprofile1Ck15s"
+1654720563937	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\naman.MSI\\AppData\\Local\\Temp\\rust_mozprofile1Ck15s\\search.json.mozlz4", (void 0)))
+1654720566910	Marionette	INFO	Listening on port 57625
+1654720567349	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1654720571649	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1654720585573	Marionette	INFO	Stopped listening on port 57625
+1654721101036	geckodriver	INFO	Listening on 127.0.0.1:57866
+1654721104083	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\naman.MSI\\AppData\\Local\\Temp\\rust_mozprofiletk5xfX"
+1654721106926	geckodriver	INFO	Listening on 127.0.0.1:57877
+1654721109976	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\naman.MSI\\AppData\\Local\\Temp\\rust_mozprofileerDBKz"
+1654721111254	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\naman.MSI\\AppData\\Local\\Temp\\rust_mozprofileerDBKz\\search.json.mozlz4", (void 0)))
+1654721114943	Marionette	INFO	Listening on port 57891
+1654721115298	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1654721116970	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+[2022-06-08T20:45:18Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-06-08T20:45:18Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-06-08T20:45:18Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-06-08T20:45:18Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+1654721119258	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1654721129468	Marionette	INFO	Stopped listening on port 57891
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
