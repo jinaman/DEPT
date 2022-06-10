@@ -1,5 +1,6 @@
 import pytest
 import unittest
+import logging
 from selenium.webdriver.common.by import By
 from page_objects.youtube_main import YoutubeMainPage
 from page_objects.google_main import GoogleMainPage
@@ -7,15 +8,16 @@ from page_objects.facebook_main import FacebookMainPage
 from page_objects.facebook_sing_up_pop_up import FacebookSingUp
 
 
-@pytest.mark.usefixtures("oneTimeSetUp")
+@pytest.mark.usefixtures("setup")
 class TestingDEPT(unittest.TestCase):
 
     @pytest.fixture(autouse=True)
-    def classSetup(self, oneTimeSetUp):
+    def classSetup(self):
         self.youtubemainpage = YoutubeMainPage(self.driver)
         self.googlemainpage = GoogleMainPage(self.driver)
         self.facebookmainpage = FacebookMainPage(self.driver)
         self.facebooksingup = FacebookSingUp(self.driver)
+        logging.basicConfig(filename='example.log', level=logging.INFO, filemode='w')
 
     @pytest.mark.run(order=1)
     def test_youtube(self):
@@ -36,8 +38,8 @@ class TestingDEPT(unittest.TestCase):
         self.driver.get(facebook_url)
         self.facebookmainpage.click_create_new_account_button()
         self.facebooksingup.click_sing_up_button()
+        logging.warning('The red alert is not present')
         last_name_alert_present = self.facebooksingup.first_name_alert_present()
         self.assertTrue(last_name_alert_present)
-
 
 

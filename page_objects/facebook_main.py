@@ -8,7 +8,6 @@ class FacebookMainPage:
         self.driver = my_driver
         self.create_new_account_button = (By.XPATH, '//a[@data-testid="open-registration-form-button"]')
 
-
     def click_create_new_account_button(self):
         button = WebDriverWait(self.driver, 5).until(EC.element_to_be_clickable(self.create_new_account_button))
         button.click()
