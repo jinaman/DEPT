@@ -1,6 +1,5 @@
 import pytest
 import unittest
-import logging
 from selenium.webdriver.common.by import By
 from page_objects.youtube_main import YoutubeMainPage
 from page_objects.google_main import GoogleMainPage
@@ -37,8 +36,8 @@ class TestingDEPT(unittest.TestCase):
         self.driver.get(facebook_url)
         self.facebookmainpage.click_create_new_account_button()
         self.facebooksingup.click_sing_up_button()
-        logging.warning('The red alert is not present')
         last_name_alert_present = self.facebooksingup.first_name_alert_present()
         self.assertTrue(last_name_alert_present)
+
 
 

@@ -17,3 +17,4 @@ class FacebookSingUp:
         alert = WebDriverWait(self.driver, 5).until(EC.presence_of_element_located(self.last_name_alert_symbol))
         if alert:
             return True
+
