@@ -2,10 +2,11 @@ import pytest
 from base.webdriverfactory import WebDriverFactory
 
 
-@pytest.fixture(scope="class")
+@pytest.fixture(autouse=True)
 def setup(request, browser):
     wdf = WebDriverFactory(browser)
     driver = wdf.getWebDriverInstance()
+    request.cls.driver = driver
     request.cls.driver = driver
     yield
     driver.close()

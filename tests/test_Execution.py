@@ -12,12 +12,11 @@ from page_objects.facebook_sing_up_pop_up import FacebookSingUp
 class TestingDEPT(unittest.TestCase):
 
     @pytest.fixture(autouse=True)
-    def classSetup(self):
+    def class_setup(self):
         self.youtubemainpage = YoutubeMainPage(self.driver)
         self.googlemainpage = GoogleMainPage(self.driver)
         self.facebookmainpage = FacebookMainPage(self.driver)
         self.facebooksingup = FacebookSingUp(self.driver)
-        logging.basicConfig(filename='example.log', level=logging.INFO, filemode='w')
 
     @pytest.mark.run(order=1)
     def test_youtube(self):
